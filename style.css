@@ -34,8 +34,12 @@
     border-radius: 6px;
 }
 #resul{
+    height: 20px;
     padding: 2px 5px 5px 0;
     text-align: right;
     color: rgb(231, 214, 214);
+}
+.ft{
+    font-size: 20px;
 }
 
