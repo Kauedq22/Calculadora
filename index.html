@@ -5,40 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="app.js">
+    <link rel="stylesheet" href="/fontawesome-free-6.4.0-web/css/all.css">
+
     <title>Calculadora</title>
 </head>
 <body>
+    
     <div class="fundo">
         <div class="calculadora">
-            <p id="resul"></p>
+            <p id="resul">5+5</p>
+            
             <table>
                 <tr>
-                    <td><button>C</button></td>
-                    <td><button><</button></td>
-                    <td><button>/</button></td>
-                    <td><button>X</button></td>
+                    <td><button class="button"><i class="fa-solid fa-c"></i></button></td>
+                    <td><button class="button"><i class="fa-solid fa-divide"></i></button></td>
+                    <td><button class="button"><i class="fa-solid fa-xmark"></i></button></td>
+                    <td><button class="button" "><i class="fa-solid fa-delete-left"></i></button></td>
+
                 </tr>
                 <tr>
-                    <td><button>7</button></td>
-                    <td><button>8</button></td>
-                    <td><button>9</button></td>
-                    <td><button>-</button></td>
+                    <td><button class="button" >7</button></td>
+                    <td><button class="button">8</button></td>
+                    <td><button class="button">9</button></td>
+                    <td><button class="button"><i class="fa-solid fa-minus"></i></button></td>
                 </tr>
                 <tr>
-                    <td><button>4</button></td>
-                    <td><button>5</button></td>
-                    <td><button>6</button></td>
-                    <td><button>+</button></td>
+                    <td><button class="button">4</button></td>
+                    <td><button class="button">5</button></td>
+                    <td><button class="button">6</button></td>
+                    <td><button class="button"><i class="fa-solid fa-plus"></i></button></td>
                 </tr>
                 <tr>
-                    <td><button>1</button></td>
-                    <td><button>2</button></td>
-                    <td><button>3</button></td>
-                    <td rowspan="2"><button>=</button></td>
+                    <td><button class="button">1</button></td>
+                    <td><button class="button">2</button></td>
+                    <td><button class="button">3</button></td>
+                    <td rowspan="2"><button class="button" style="height: 105px;"><i class="fa-solid fa-equals"></i></button></td>
                 </tr>
                 <tr>
-                    <td colspan="2"><button>0</button></td>
-                    <td><button>.</button></td>
+                    <td colspan="2"><button class="button" style="width: 105px;">0</button></td>
+                    <td><button class="button">.</button></td>
                 </tr>
             </table>
         </div>
